@@ -1,0 +1,35 @@
+.block{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    background: rgb(227, 158, 158);
+    border-radius: 8px;
+    margin-top: 50px;
+}
+.counter{
+    font-size: 50px;
+    color: #000;
+}
+
+.button_block{
+    display: flex;
+    gap: 20px;
+}
+
+button{
+    border: 0;
+    cursor: pointer;
+    padding: 3px 8px;
+    border-radius: 3px;
+    background: yellow;
+    color: rgb(14, 13, 13);
+}
+button:hover{
+    background: rgb(54, 77, 54);
+}
+
+
